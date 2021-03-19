@@ -1,0 +1,12 @@
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/bin/Debug/net5.0/NameGeneratorLib.deps.json
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/bin/Debug/net5.0/NameGeneratorLib.dll
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/bin/Debug/net5.0/ref/NameGeneratorLib.dll
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/bin/Debug/net5.0/NameGeneratorLib.pdb
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/obj/Debug/net5.0/NameGeneratorLib.csprojAssemblyReference.cache
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/obj/Debug/net5.0/NameGeneratorLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/obj/Debug/net5.0/NameGeneratorLib.AssemblyInfoInputs.cache
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/obj/Debug/net5.0/NameGeneratorLib.AssemblyInfo.cs
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/obj/Debug/net5.0/NameGeneratorLib.csproj.CoreCompileInputs.cache
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/obj/Debug/net5.0/NameGeneratorLib.dll
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/obj/Debug/net5.0/ref/NameGeneratorLib.dll
+/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/lib/NameGeneratorLib/obj/Debug/net5.0/NameGeneratorLib.pdb
