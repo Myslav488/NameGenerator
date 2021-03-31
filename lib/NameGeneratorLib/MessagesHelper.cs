@@ -58,6 +58,7 @@ namespace NameGeneratorLib
             Console.Clear();
             Console.WriteLine("############### \n \n");
             System.Console.WriteLine("Thanks for your attention \n \n");
+            System.Console.WriteLine("We hope You appreciate our work \n \n");
             Console.WriteLine("###############");
             
             Thread.Sleep(2000);

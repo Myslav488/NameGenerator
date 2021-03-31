@@ -15,25 +15,31 @@ namespace NameGenerator
             // var user1 = new User();
             MessagesHelper.GetUserData(ref user1);
             
-            System.Console.WriteLine($"OK {user1.FirstName} so You are born in '{user1.CountBornYear()} \n \n");
+            System.Console.WriteLine($"OK {user1.FirstName} so You are born in '{user1.CountShortBornYear()} \n \n");
             System.Console.WriteLine("Aren't You? \n \n");
             
-            ChooseAction();
-
-            Thread.Sleep(2000);
-            Console.Clear();
+            
+            while(true)
+            {
+                MainMenu();
+                Console.Clear();
+            }
+            
+            // Thread.Sleep(2000);
+            // 
         }
 
-        public static void ChooseAction()
+        public static void MainMenu()
         {
-            System.Console.WriteLine("OK, so what would You like to do now?");
+            System.Console.WriteLine("Great, so what would You like to do now? \n");
             System.Console.WriteLine("#1 <- Generate quick nickname accoding to Your personalities");
             System.Console.WriteLine("#2 <- Generate random nickname");
             System.Console.WriteLine("#3 <- Generate some password");
-            System.Console.WriteLine("#4 <- Exit");
+            System.Console.WriteLine("#4 <- Exit \n");
+            System.Console.WriteLine("What is Your choice: ");
             int choice = int.Parse(Console.ReadLine());
-            MessagesHelper.AnimProcess(5); 
-
+            MessagesHelper.AnimProcess(3); 
+            
             PerformAction(choice);
 
         }
@@ -44,7 +50,7 @@ namespace NameGenerator
             {
                 case 1:
                     var rest1 = new GenerateQuick(Program.user1);
-                    rest1.ShowResult();
+                    rest1.PerformAction(1);
                     break;
                 case 2:
                     var rest2 = new GenerateRandom();

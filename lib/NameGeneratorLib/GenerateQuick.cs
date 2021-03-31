@@ -1,5 +1,5 @@
 using System;
-
+// using NameGenerator;
 
 namespace NameGeneratorLib
 {
@@ -12,6 +12,35 @@ namespace NameGeneratorLib
         public GenerateQuick (User user)
         {
             userro = user;
+        }
+
+        public override void SubMenu()
+        {
+            System.Console.WriteLine("\n \n We've got this. What now? \n");    
+            System.Console.WriteLine("#1 <- Reapet");
+            System.Console.WriteLine("#2 <- Quit to main menu");    
+            int choice = int.Parse(Console.ReadLine());
+            MessagesHelper.AnimProcess(5); 
+
+            PerformAction(choice);
+        
+        }
+        public override void PerformAction(int choice)
+        {
+            switch(choice)
+            {
+                case 1:
+                    ShowResult();
+                    break;
+                case 2:
+                    System.Console.WriteLine("Not yet supported");
+                    break;
+                    
+                default:
+                    System.Console.WriteLine("You've given wrong number...");
+                    break;
+            }
+
         }
 
         public override void ShowResult()
@@ -31,8 +60,9 @@ namespace NameGeneratorLib
                 System.Console.WriteLine($"{userro.FirstName}_{121-userro.Age}");
 
             }
-            
+            SubMenu();
         }
+
 
     }
 }

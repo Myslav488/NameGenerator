@@ -18,5 +18,15 @@ namespace NameGeneratorLib
             MessagesHelper.GoodBye();
         }
 
+        public override void SubMenu()
+        {
+            throw new NotImplementedException();
+        }
+        public override void PerformAction(int choice)
+        {
+            throw new NotImplementedException();
+        }
+
+
     }
 }
