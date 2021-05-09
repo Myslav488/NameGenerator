@@ -45,6 +45,7 @@ namespace NameGeneratorLib
 
         public override void ShowResult()
         {
+            Console.Clear();
             System.Console.WriteLine("So then, should it be rather long or not really? (y/n)");
             var recived = Console.ReadLine().ToLower();
 

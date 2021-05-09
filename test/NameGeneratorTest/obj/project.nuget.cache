@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KQKezVHyWwxiM1LTpZT5hL10Tg7+gWhC89UVN4rKwCxzCTxRyMV61orLlEqc8FTVYvPfJmlm+UCdavjGWSkeOA==",
+  "dgSpecHash": "sEjF4Ed0dLEuIx90Z+KwdUtDoixNKDwL0l5LQirIVnZ4hT1/wHJIhh/pFe/4qio442D9LCJ3OWflzOKXdx1coQ==",
   "success": true,
   "projectFilePath": "/home/grabowsky/Programming/CSharp/Prjc_004_NameGenerator/NameGenerator/test/NameGeneratorTest/NameGeneratorTest.csproj",
   "expectedPackageFiles": [

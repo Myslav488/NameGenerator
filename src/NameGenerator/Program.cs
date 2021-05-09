@@ -24,9 +24,6 @@ namespace NameGenerator
                 MainMenu();
                 Console.Clear();
             }
-            
-            // Thread.Sleep(2000);
-            // 
         }
 
         public static void MainMenu()
@@ -39,7 +36,7 @@ namespace NameGenerator
             System.Console.WriteLine("What is Your choice: ");
             int choice = int.Parse(Console.ReadLine());
             MessagesHelper.AnimProcess(3); 
-            
+
             PerformAction(choice);
 
         }
@@ -64,6 +61,7 @@ namespace NameGenerator
                     ExitApp();
                     break;                
                 default:
+                    Thread.Sleep(2000);
                     System.Console.WriteLine("You've given wrong number...");
                     break;
             }
@@ -75,4 +73,5 @@ namespace NameGenerator
             Environment.Exit(0);
         }
     }
+   
 }
